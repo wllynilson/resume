@@ -8,7 +8,9 @@
 
 **Skype:** wllynilson
 
-**Github:** wllynilson
+**Github:** www.github.com/wllynilson
+
+**Twitter** www.twitter.com/wllynilson
 
 ## Sobre mim
 Estudante e Programador. Ajudo desenvolvedores a entregar softwares com melhores prazos. No período correto.
@@ -23,10 +25,10 @@ Estudante e Programador. Ajudo desenvolvedores a entregar softwares com melhores
 * Django
 * Angular4
 * Typescript
-* Javascrip
+* Javascript
 
 ## Experiência Profissional
 
 **Front-end Developer** - Tribunal de Justiça do Estado do Tocantins - Outubro 2016 - Presente
 
-> Como parte da equipe principal,  eu sou responsável por desenvolver de forma eficiente, reutilizável e confiável o código front-end da plataforma. Projeto em andamento: Diário de Justiça do Estado do Tocantins. Trabalhando com: HTML5, CSS3, Javascript, Bootstrap, Jquery.
+> Como parte da equipe principal,  eu sou responsável por desenvolver de forma eficiente, reutilizável e confiável o código front-end da plataforma. Projeto em andamento: *Diário de Justiça do Estado do Tocantins*. Trabalhando com: HTML5, CSS3, Javascript, Bootstrap, Jquery.
