@@ -1,8 +1,8 @@
 # Wllynilson Pereira Cardoso Carneiro
 
-**Localização:** Palmas - Tocantins
+**Location:** Palmas - Tocantins
 
-**Telefone:** +55 (63) 9 9213 6634
+**Phone Number:** +55 (63) 9 9213 6634
 
 **E-mail:** wllynilson@gmail.com
 
@@ -12,24 +12,25 @@
 
 **Twitter** www.twitter.com/wllynilson
 
-## Sobre mim
-* Estudante e Programador. Ajudo desenvolvedores a entregar softwares com melhores prazos. No período correto.
-* Estudante de **Sistemas de Informação** 6° Período. _Centro Universitário Luterano de Palmas - TO_
+## About me
+* Student and Developer. I help developers deliver software with better deadlines. In the correct period.
+* student of **Information systems** 6° Period. _Centro Universitário Luterano de Palmas - TO_
 
-## Habilidades
+## Skills
 
-* Html5
+* Html5 
 * CSS3
 * Java
 * C#
 * Python
+* Git
 * Django
 * Angular4
 * Typescript
 * Javascript
 
-## Experiência Profissional
+## Work Experience
 
-**Front-end Developer** - Tribunal de Justiça do Estado do Tocantins - Outubro 2016 - Presente
+**Front-end Developer** - Tribunal de Justiça do Estado do Tocantins - October 2016 - April 2018
 
-> Como parte da equipe principal,  eu sou responsável por desenvolver de forma eficiente, reutilizável e confiável o código front-end da plataforma. Projeto em andamento: *Diário de Justiça do Estado do Tocantins* (https://wwa.tjto.jus.br/diario/pesquisa). Trabalhando com: C#, HTML5, CSS3, Javascript, Bootstrap, Jquery.
+> As part of the core team, I am responsible for efficiently, reusably, and reliably developing the platform front-end code. Project: *Diário de Justiça of the State of Tocantins* (https://wwa.tjto.jus.br/diario/esquisa). Working with: C#, HTML5, CSS3, Javascript, Bootstrap, Jquery.
