@@ -14,7 +14,7 @@
 
 ## Sobre mim
 * Estudante e Programador. Ajudo desenvolvedores a entregar softwares com melhores prazos. No período correto.
-* Estudante de **Sistemas de Informação** 6° Período. _Centro Universitário Luterano de Palmas - TO_
+* Estudante de **Sistemas de Informação** 7° Período. _Centro Universitário Luterano de Palmas - TO_
 
 ## Habilidades
 
@@ -25,11 +25,13 @@
 * Python
 * Git
 * Django
-* Angular4
-* Typescript
 * Javascript
 
 ## Experiência Profissional
+
+**Front-end Developer** - EcoAçu - April 2018 - Present
+
+> Desenvolver novas soluções usando tecnologias e protótipos modernos. Como parte da equipe principal, sou responsável por desenvolver de forma reutilizável, eficiente e confiável o código front-end da plataforma.
 
 **Front-end Developer** - Tribunal de Justiça do Estado do Tocantins - Outubro 2016 - Abril 2018
 
