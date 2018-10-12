@@ -14,7 +14,7 @@
 
 ## About me
 * Student and Developer. I help developers deliver software with better deadlines. In the correct period.
-* student of **Information systems** 6° Period. _Centro Universitário Luterano de Palmas - TO_
+* student of **Information systems** 7° Period. _Centro Universitário Luterano de Palmas - TO_
 
 ## Skills
 
@@ -25,11 +25,13 @@
 * Python
 * Git
 * Django
-* Angular4
-* Typescript
 * Javascript
 
 ## Work Experience
+
+**Front-end Developer** - EcoAçu - April 2018 - Present
+
+> Developing new solutions using modern technologies and prototypes. As part of the core team, I am responsible for reusably, efficiently, and reliably developing the platform front-end code. 
 
 **Front-end Developer** - Tribunal de Justiça do Estado do Tocantins - October 2016 - April 2018
 
