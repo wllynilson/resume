@@ -14,7 +14,7 @@
 
 ## About me
 * Student and Developer. I help developers deliver software with better deadlines. In the correct period.
-* student of **Information systems** 7° Period. _Centro Universitário Luterano de Palmas - TO_
+* student of **Information systems** 8° Period. _Centro Universitário Luterano de Palmas - TO_
 
 ## Skills
 
