@@ -14,7 +14,7 @@
 
 ## Sobre mim
 * Estudante e Programador. Ajudo desenvolvedores a entregar softwares com melhores prazos. No período correto.
-* Estudante de **Sistemas de Informação** 7° Período. _Centro Universitário Luterano de Palmas - TO_
+* Estudante de **Sistemas de Informação** 8° Período. _Centro Universitário Luterano de Palmas - TO_
 
 ## Habilidades
 
