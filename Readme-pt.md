@@ -18,18 +18,15 @@
 
 ## Habilidades
 
-* Html5 
-* CSS3
 * Java
-* C#
-* Python
 * Git
+* Python
 * Django
-* Javascript
+* Html5
 
 ## Experiência Profissional
 
-**Front-end Developer** - EcoAçu - April 2018 - Present
+**Back-end Developer** - EcoAçu - April 2018 - Present
 
 > Desenvolver novas soluções usando tecnologias e protótipos modernos. Como parte da equipe principal, sou responsável por desenvolver de forma reutilizável, eficiente e confiável o código front-end da plataforma.
 
