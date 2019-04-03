@@ -26,7 +26,11 @@
 
 ## Work Experience
 
-**Back-end Developer** - EcoAçu - April 2018 - Present
+**Requirements Analyst** - EcoAçu - April 2019 - Present
+
+> Responsibility is to gather, analyze, document and validate the needs of the project stakeholders.
+
+**Back-end Developer** - EcoAçu - April 2018 - April 2019
 
 > Developing new solutions using modern technologies and prototypes. As part of the core team, I am responsible for reusably, efficiently, and reliably developing the platform front-end code. 
 
