@@ -26,7 +26,11 @@
 
 ## Experiência Profissional
 
-**Back-end Developer** - EcoAçu - April 2018 - Present
+**Analista de Requisitos** - EcoAçu - April 2019 - Presente
+
+> Responsável por reunir, analisar, documentar e validar as necessidades das partes interessadas do projeto.
+
+**Back-end Developer** - EcoAçu - Abril 2018 - Abril 2019
 
 > Desenvolver novas soluções usando tecnologias e protótipos modernos. Como parte da equipe principal, sou responsável por desenvolver de forma reutilizável, eficiente e confiável o código front-end da plataforma.
 
