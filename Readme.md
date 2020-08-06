@@ -13,8 +13,8 @@
 **Twitter** www.twitter.com/wllynilson
 
 ## About me
+* Bachelor in **Information Systems** _Centro Universitário Luterano de Palmas - TO_.
 * Student and Developer. I help developers deliver software with better deadlines. In the correct period.
-* student of **Information systems** 8° Period. _Centro Universitário Luterano de Palmas - TO_
 
 ## Skills
 
