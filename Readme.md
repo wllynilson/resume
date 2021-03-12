@@ -19,20 +19,26 @@
 ## Skills
 
 * Java
+* JUnit
+* JaperReport
+* SpringBoot
 * Git
 * Python
 * Django
-* Html5 
 
 ## Work Experience
 
-**Requirements Analyst** - EcoAçu - April 2019 - Present
+**Software Developer II** - 7COMm - November 2020 - Current
+
+> Responsible for ensuring the implementation of legible and reusable code with automated test coverage. 
+
+**Requirements Analyst** - EcoAçu - April 2019 - November 2020
 
 > Responsibility is to gather, analyze, document and validate the needs of the project stakeholders.
 
 **Back-end Developer** - EcoAçu - April 2018 - April 2019
 
-> Developing new solutions using modern technologies and prototypes. As part of the core team, I am responsible for reusably, efficiently, and reliably developing the platform front-end code. 
+> Developing new solutions using modern technologies and prototypes. As part of the core team, I am responsible for reusably, efficiently, and reliably developing the platform back-end code. 
 
 **Front-end Developer** - Tribunal de Justiça do Estado do Tocantins - October 2016 - April 2018
 

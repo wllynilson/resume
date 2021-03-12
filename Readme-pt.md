@@ -19,20 +19,26 @@
 ## Habilidades
 
 * Java
+* JUnit
+* JaperReport
+* SpringBoot
 * Git
 * Python
 * Django
-* Html5
 
 ## Experiência Profissional
 
-**Analista de Requisitos** - EcoAçu - April 2019 - Presente
+**Software Developer II** - Novembro 2020 - Presente
+
+> Responsavel por garantir a implementação de códigos legiveis e reutilizáveis com cobertura de testes automatizados.
+
+**Analista de Requisitos** - EcoAçu - April 2019 - Novembro 2020
 
 > Responsável por reunir, analisar, documentar e validar as necessidades das partes interessadas do projeto.
 
 **Back-end Developer** - EcoAçu - Abril 2018 - Abril 2019
 
-> Desenvolver novas soluções usando tecnologias e protótipos modernos. Como parte da equipe principal, sou responsável por desenvolver de forma reutilizável, eficiente e confiável o código front-end da plataforma.
+> Desenvolver novas soluções usando tecnologias e protótipos modernos. Como parte da equipe principal, sou responsável por desenvolver de forma reutilizável, eficiente e confiável o código back-end da plataforma.
 
 **Front-end Developer** - Tribunal de Justiça do Estado do Tocantins - Outubro 2016 - Abril 2018
 
