@@ -10,8 +10,6 @@
 
 **Github:** www.github.com/wllynilson
 
-**Twitter** www.twitter.com/wllynilson
-
 ## About me
 * Bachelor in **Information Systems** _Centro Universitário Luterano de Palmas - TO_.
 * Student and Developer. I help developers deliver software with better deadlines. In the correct period.
@@ -28,7 +26,11 @@
 
 ## Work Experience
 
-**Software Developer II** - 7COMm - November 2020 - Current
+**Customized Solutions Consultant** - Capgemini - August 2021 - Present
+
+> 
+
+**Software Developer II** - 7COMm - November 2020 - August 2021
 
 > Responsible for ensuring the implementation of legible and reusable code with automated test coverage. 
 
