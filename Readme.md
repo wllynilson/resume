@@ -8,7 +8,7 @@
 
 **Skype:** wllynilson
 
-**Github:** www.github.com/wllynilson
+**Github:** www.github.com/wllynilson/resume/
 
 ## About me
 * Bachelor in **Information Systems** _Centro Universitário Luterano de Palmas - TO_.
@@ -26,9 +26,13 @@
 
 ## Work Experience
 
-**Customized Solutions Consultant** - Capgemini - August 2021 - Present
+**Soldier** Military Firefighter do Tocantins - May 2024 - Present
 
-> 
+> .
+
+**Customized Solutions Consultant** - Capgemini - August 2021 - May 2024
+
+> Analysis and development of software, preventive and corrective corrections of systems with JAVA, SPRING BOOT, MAVEN, GIT, ANGULAR, JPA, JUNIT, SCRUM
 
 **Software Developer II** - 7COMm - November 2020 - August 2021
 
