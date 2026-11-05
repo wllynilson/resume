@@ -3,442 +3,266 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wllynilson - Desenvolvedor de Software</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    <title>Wllynilson Pereira · Desenvolvedor de Software</title>
+    <meta name="description" content="Wllynilson Pereira — desenvolvedor de software com foco em backend Java e Spring Boot. Portfólio, projetos e contato.">
+    <meta property="og:title" content="Wllynilson Pereira · Desenvolvedor de Software">
+    <meta property="og:description" content="Backend Java e Spring Boot. Portfólio, projetos e contato.">
+    <meta property="og:url" content="https://wllynilson.com.br/">
+    <meta property="og:type" content="website">
+    <meta name="color-scheme" content="light dark">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23e8590c'/><text x='16' y='22' font-family='monospace' font-size='16' font-weight='700' text-anchor='middle' fill='white'>W</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        // Aplica o tema salvo antes da renderização para evitar "piscar"
+        try {
+            var t = localStorage.getItem('theme');
+            if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+        } catch (e) {}
+    </script>
 </head>
 <body>
-<!-- Header -->
+
+<a class="skip-link" href="#main">Pular para o conteúdo</a>
+
 <header class="header">
-    <nav class="nav container">
-        <div class="logo">Wllynilson</div>
-        <ul class="nav-links">
-            <li><a href="#home">Início</a></li>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#skills">Habilidades</a></li>
-            <li><a href="#experience">Experiência</a></li>
-            <li><a href="#contact">Contato</a></li>
+    <nav class="nav container" aria-label="Principal">
+        <a href="#inicio" class="logo"><span class="logo-mark">W</span>wllynilson</a>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#experiencia">Experiência</a></li>
+            <li><a href="#contato">Contato</a></li>
         </ul>
-        <div class="mobile-menu-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
+        <div class="nav-actions">
+            <button class="icon-btn theme-toggle" type="button" aria-label="Alternar tema claro/escuro">
+                <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+                <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+            </button>
+            <button class="icon-btn menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-links">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+            </button>
         </div>
     </nav>
 </header>
 
-<!-- Hero Section -->
-<section id="home" class="hero">
-    <div class="container">
-        <div class="hero-content">
+<main id="main">
+
+    <!-- Início -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Palmas, Tocantins · disponível para remoto</p>
             <h1>Wllynilson Pereira</h1>
-            <p class="subtitle">Desenvolvedor de Software & Especialista em Backend</p>
-            <p class="description">
-                Bacharel em Sistemas de Informação com expertise em Java e Spring Boot. Transformo ideias em soluções tecnológicas robustas, focando em qualidade, performance e experiência do usuário.
+            <p class="lead">
+                Desenvolvedor de software com foco em <strong>backend Java e Spring Boot</strong>.
+                Transformo processos em sistemas confiáveis, com código limpo e testado.
             </p>
-            <div class="cta-buttons">
-                <a href="#contact" class="btn btn-primary btn-icon gpu-accelerated">Vamos Conversar</a>
-                <a href="https://github.com/wllynilson" class="btn btn-secondary gpu-accelerated" target="_blank" rel="noopener noreferrer">Ver Projetos</a>
+            <div class="cta">
+                <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+                <a href="#contato" class="btn btn-ghost">Entrar em contato</a>
             </div>
         </div>
-        
-        <!-- Glass Card with Stats -->
-        
-    </div>
-    
-    <!-- Background Elements -->
-    <div class="hero-bg-elements">
-        <div class="bg-blur bg-blur-1"></div>
-        <div class="bg-blur bg-blur-2"></div>
-        <div class="bg-blur bg-blur-3"></div>
-    </div>
-</section>
+    </section>
 
-<!-- About Section -->
-<section id="about" class="about">
-    <div class="container">
-        <h2 class="section-title">Sobre Mim</h2>
-        <div class="about-content">
-            <div class="about-text">
-                <h3>Desenvolvedor Experiente</h3>
+    <!-- Sobre -->
+    <section id="sobre" class="section">
+        <div class="container about">
+            <div>
+                <h2 class="section-title"><span class="section-num">01</span>Sobre</h2>
                 <p>
-                    Sou bacharel em Sistemas de Informação pelo Centro Universitário Luterano de Palmas - TO.
-                    Como desenvolvedor, minha paixão é ajudar equipes a entregar software de qualidade dentro dos prazos
-                    estabelecidos.
+                    Sou bacharel em Sistemas de Informação pelo Centro Universitário Luterano de Palmas (TO).
+                    Ao longo de quase dez anos passei por front-end, análise de requisitos e, principalmente,
+                    desenvolvimento back-end — de diários oficiais a plataformas corporativas.
                 </p>
                 <p>
-                    Tenho experiência sólida em desenvolvimento back-end com Java e Spring Boot, além de conhecimentos
-                    em front-end e análise de requisitos.
-                    Atualmente sirvo como Soldado Bombeiro Militar no Tocantins, combinando disciplina militar com
-                    expertise técnica.
+                    Hoje sirvo como Soldado Bombeiro Militar no Tocantins e sigo atuando na análise e no
+                    desenvolvimento de sistemas internos de gestão de resultados, unindo disciplina e
+                    responsabilidade com prática técnica.
                 </p>
             </div>
-            <div class="contact-info">
-                <h3>Informações de Contato</h3>
-                <div class="contact-item">
-                    <i>📍</i>
-                    <span>Palmas, Tocantins</span>
-                </div>
-                <div class="contact-item">
-                    <i>📱</i>
-                    <span>+55 (63) 99213-6634</span>
-                </div>
-                <div class="contact-item">
-                    <i>📧</i>
-                    <span>wllynilson@gmail.com</span>
-                </div>
-                <div class="contact-item">
-                    <i>💻</i>
-                    <span>github.com/wllynilson</span>
-                </div>
-                <div class="contact-item">
-                    <i>📞</i>
-                    <span>Skype: wllynilson</span>
+            <div>
+                <h3 class="sub-title">Tecnologias</h3>
+                <ul class="chips" aria-label="Tecnologias">
+                    <li>Java</li>
+                    <li>Spring Boot</li>
+                    <li>JPA / Hibernate</li>
+                    <li>Maven</li>
+                    <li>JUnit</li>
+                    <li>JasperReports</li>
+                    <li>Angular</li>
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>Git</li>
+                    <li>Scrum</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="section-num">02</span>Projetos</h2>
+            <p class="section-intro">Aplicações pessoais publicadas em subdomínios de <span class="mono">wllynilson.com.br</span>.</p>
+
+            <!--
+                Para adicionar um projeto, copie um <article class="project"> abaixo.
+                Status: "status-live" (no ar) ou "status-soon" (em breve).
+            -->
+            <div class="projects">
+                <article class="project">
+                    <div class="project-head">
+                        <span class="status status-soon">Em breve</span>
+                    </div>
+                    <h3>Senhas de Atendimento</h3>
+                    <p>Sistema para organizar senhas de filas de atendimento: emissão, chamada e painel de acompanhamento.</p>
+                    <ul class="tags"><li>Web</li><li>Fila</li></ul>
+                    <span class="project-link is-disabled mono">senhas.wllynilson.com.br</span>
+                </article>
+
+                <a class="project project-more" href="https://github.com/wllynilson" target="_blank" rel="noopener noreferrer">
+                    <h3>Mais no GitHub</h3>
+                    <p>Código-fonte, estudos e outros experimentos.</p>
+                    <span class="project-link mono">github.com/wllynilson →</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiência -->
+    <section id="experiencia" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="section-num">03</span>Experiência</h2>
+            <ol class="timeline">
+                <li class="timeline-item">
+                    <div class="period">mai 2024 — atual</div>
+                    <div>
+                        <h3>Soldado Bombeiro Militar</h3>
+                        <div class="company">Corpo de Bombeiros Militar do Tocantins</div>
+                        <p>Atuação no serviço público militar e na análise e desenvolvimento de sistemas internos de gestão de resultados.</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="period">ago 2021 — mai 2024</div>
+                    <div>
+                        <h3>Consultor de Soluções Customizadas</h3>
+                        <div class="company">Capgemini</div>
+                        <p>Análise e desenvolvimento de software, manutenção preventiva e corretiva de sistemas com Java, Spring Boot, Maven, Angular, JPA, JUnit e Scrum.</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="period">nov 2020 — ago 2021</div>
+                    <div>
+                        <h3>Desenvolvedor de Software II</h3>
+                        <div class="company">7COMm</div>
+                        <p>Implementação de código legível e reutilizável, com cobertura de testes automatizados.</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="period">abr 2019 — nov 2020</div>
+                    <div>
+                        <h3>Analista de Requisitos</h3>
+                        <div class="company">EcoAçu</div>
+                        <p>Coleta, análise, documentação e validação das necessidades dos stakeholders do projeto.</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="period">abr 2018 — abr 2019</div>
+                    <div>
+                        <h3>Desenvolvedor Back-end</h3>
+                        <div class="company">EcoAçu</div>
+                        <p>Desenvolvimento de novas soluções e protótipos; responsável por código back-end reutilizável, eficiente e confiável da plataforma.</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="period">out 2016 — abr 2018</div>
+                    <div>
+                        <h3>Desenvolvedor Front-end</h3>
+                        <div class="company">Tribunal de Justiça do Estado do Tocantins</div>
+                        <p>Front-end do Diário da Justiça do Estado do Tocantins com C#, HTML5, CSS3, JavaScript, Bootstrap e jQuery.</p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="section-num">04</span>Contato</h2>
+            <div class="contact">
+                <p class="contact-lead">Quer conversar sobre um projeto, uma vaga ou uma ideia? Me chama.</p>
+                <div class="contact-links">
+                    <a class="contact-card" href="mailto:wllynilson@gmail.com">
+                        <span class="contact-label">E-mail</span>
+                        <span class="mono">wllynilson@gmail.com</span>
+                    </a>
+                    <a class="contact-card" href="https://www.linkedin.com/in/wllynilson/" target="_blank" rel="noopener noreferrer">
+                        <span class="contact-label">LinkedIn</span>
+                        <span class="mono">in/wllynilson</span>
+                    </a>
+                    <a class="contact-card" href="https://github.com/wllynilson" target="_blank" rel="noopener noreferrer">
+                        <span class="contact-label">GitHub</span>
+                        <span class="mono">github.com/wllynilson</span>
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Skills Section -->
-<section id="skills" class="skills">
-    <div class="container">
-        <h2 class="section-title">Habilidades Técnicas</h2>
-        <div class="skills-grid">
-            <div class="skill-card">
-                <h3>Java</h3>
-                <p>Desenvolvimento robusto e orientado a objetos</p>
-            </div>
-            <div class="skill-card">
-                <h3>Spring Boot</h3>
-                <p>Framework para aplicações Java modernas</p>
-            </div>
-            <div class="skill-card">
-                <h3>JUnit</h3>
-                <p>Testes automatizados e TDD</p>
-            </div>
-            <div class="skill-card">
-                <h3>JasperReports</h3>
-                <p>Geração de relatórios profissionais</p>
-            </div>
-            <div class="skill-card">
-                <h3>Git</h3>
-                <p>Controle de versão e colaboração</p>
-            </div>
-            <div class="skill-card">
-                <h3>Python</h3>
-                <p>Desenvolvimento versátil e automação</p>
-            </div>
-            <div class="skill-card">
-                <h3>Django</h3>
-                <p>Framework web Python completo</p>
-            </div>
-        </div>
-    </div>
-</section>
+</main>
 
-<!-- Experience Section -->
-<section id="experience" class="experience">
-    <div class="container">
-        <h2 class="section-title">Experiência Profissional</h2>
-        <div class="timeline">
-            <div class="timeline-item">
-                <h3>Soldado Bombeiro Militar</h3>
-                <div class="company">Corpo de Bombeiros Militar do Tocantins</div>
-                <div class="period">Maio 2024 - Presente</div>
-                <div class="description">
-                    Atuação no serviço público militar, aplicando disciplina e responsabilidade no exercício das funções
-                    de segurança pública.
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <h3>Consultor de Soluções Customizadas</h3>
-                <div class="company">Capgemini</div>
-                <div class="period">Agosto 2021 - Maio 2024</div>
-                <div class="description">
-                    Análise e desenvolvimento de ‘software’, correções preventivas e corretivas de sistemas utilizando
-                    JAVA, SPRING BOOT, MAVEN, GIT, ANGULAR, JPA, JUNIT e metodologia SCRUM.
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <h3>Desenvolvedor de Software II</h3>
-                <div class="company">7COMm</div>
-                <div class="period">Novembro 2020 - Agosto 2021</div>
-                <div class="description">
-                    Responsável por garantir a implementação de código legível e reutilizável com cobertura de testes
-                    automatizados.
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <h3>Analista de Requisitos</h3>
-                <div class="company">EcoAçu</div>
-                <div class="period">Abril 2019 - novembro 2020</div>
-                <div class="description">
-                    Responsabilidade de coletar, analisar, documentar e validar as necessidades dos stakeholders do
-                    projeto.
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <h3>Desenvolvedor Back-end</h3>
-                <div class="company">EcoAçu</div>
-                <div class="period">Abril 2018 - Abril 2019</div>
-                <div class="description">
-                    Desenvolvimento de novas soluções usando tecnologias modernas e protótipos. Como parte da equipe
-                    principal, responsável pelo desenvolvimento reutilizável, eficiente e confiável do código back-end
-                    da plataforma.
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <h3>Desenvolvedor Front-end</h3>
-                <div class="company">Tribunal de Justiça do Estado do Tocantins</div>
-                <div class="period">Outubro 2016 - Abril 2018</div>
-                <div class="description">
-                    Desenvolvimento eficiente, reutilizável e confiável do código front-end da plataforma. Projeto:
-                    Diário de Justiça do Estado do Tocantins. Trabalhando com: C#, HTML5, CSS3, Javascript, Bootstrap,
-                    jQuery.
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Contact Section -->
-<section id="contact" class="contact">
-    <div class="container">
-        <h2 class="section-title">Entre em Contato</h2>
-        
-        <div class="contact-content">
-            <div class="contact-info-grid">
-                <div class="contact-card glass-morphism hover-lift">
-                    <div class="contact-icon">
-                        <span>📧</span>
-                    </div>
-                    <h3>E-mail</h3>
-                    <p>wllynilson@gmail.com</p>
-                    <a href="mailto:wllynilson@gmail.com" class="contact-link">Enviar E-mail</a>
-                </div>
-
-                <div class="contact-card glass-morphism hover-lift">
-                    <div class="contact-icon">
-                        <span>📱</span>
-                    </div>
-                    <h3>Telefone</h3>
-                    <p>+55 (63) 99213-6634</p>
-                    <a href="tel:+5563992136634" class="contact-link">Ligar Agora</a>
-                </div>
-
-                <div class="contact-card glass-morphism hover-lift">
-                    <div class="contact-icon">
-                        <span>📍</span>
-                    </div>
-                    <h3>Localização</h3>
-                    <p>Palmas, Tocantins</p>
-                    <span class="contact-availability">Disponível para remoto</span>
-                </div>
-
-                <div class="contact-card glass-morphism hover-lift">
-                    <div class="contact-icon">
-                        <span>💻</span>
-                    </div>
-                    <h3>GitHub</h3>
-                    <p>github.com/wllynilson</p>
-                    <a href="https://github.com/wllynilson" class="contact-link" target="_blank" rel="noopener noreferrer">Ver Projetos</a>
-                </div>
-            </div>
-
-            <div class="contact-cta">
-                <h3>Pronto para colaborar?</h3>
-                <p>Vamos transformar suas ideias em soluções tecnológicas incríveis. Entre em contato e vamos conversar sobre seu próximo projeto!</p>
-                <div class="contact-buttons">
-                    <a href="mailto:wllynilson@gmail.com" class="btn btn-primary btn-icon">Enviar Mensagem</a>
-                    <a href="https://wa.me/5563992136634" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Footer -->
 <footer class="footer">
-    <div class="container">
-        <div class="footer-content">
-            <div class="footer-left">
-                <div class="footer-logo">Wllynilson</div>
-                <p>Desenvolvedor de Software especializado em Java e Spring Boot</p>
-            </div>
-            <div class="footer-right">
-                <div class="social-links">
-                    <a href="https://github.com/wllynilson" target="_blank" rel="noopener noreferrer" class="social-link">
-                        <span>GitHub</span>
-                    </a>
-                    <a href="mailto:wllynilson@gmail.com" class="social-link">
-                        <span>Email</span>
-                    </a>
-                    <a href="https://wa.me/5563992136634" target="_blank" rel="noopener noreferrer" class="social-link">
-                        <span>WhatsApp</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 Wllynilson Pereira. Todos os direitos reservados.</p>
-        </div>
+    <div class="container footer-inner">
+        <span>© <span id="year">2026</span> Wllynilson Pereira</span>
+        <span class="mono">wllynilson.com.br</span>
     </div>
 </footer>
 
 <script>
-    // Modern JavaScript with performance optimizations
-    (function() {
-        'use strict';
-        
-        // Utility functions
-        const throttle = (func, limit) => {
-            let inThrottle;
-            return function() {
-                const args = arguments;
-                const context = this;
-                if (!inThrottle) {
-                    func.apply(context, args);
-                    inThrottle = true;
-                    setTimeout(() => inThrottle = false, limit);
-                }
-            }
-        };
+(function () {
+    'use strict';
 
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const targetId = this.getAttribute('href');
-                const target = document.querySelector(targetId);
-                
-                if (target) {
-                    const headerHeight = document.querySelector('.header').offsetHeight;
-                    const targetPosition = target.offsetTop - headerHeight;
-                    
-                    window.scrollTo({
-                        top: targetPosition,
-                        behavior: 'smooth'
-                    });
-                }
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Tema claro/escuro
+    var root = document.documentElement;
+    document.querySelector('.theme-toggle').addEventListener('click', function () {
+        var current = root.dataset.theme ||
+            (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        var next = current === 'dark' ? 'light' : 'dark';
+        root.dataset.theme = next;
+        try { localStorage.setItem('theme', next); } catch (e) {}
+    });
+
+    // Menu mobile
+    var toggle = document.querySelector('.menu-toggle');
+    var links = document.getElementById('nav-links');
+    function setMenu(open) {
+        links.classList.toggle('open', open);
+        toggle.setAttribute('aria-expanded', String(open));
+    }
+    toggle.addEventListener('click', function () {
+        setMenu(!links.classList.contains('open'));
+    });
+    links.addEventListener('click', function (e) {
+        if (e.target.closest('a')) setMenu(false);
+    });
+
+    // Destaque do link da seção visível
+    var navAnchors = links.querySelectorAll('a');
+    var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+            if (!entry.isIntersecting) return;
+            navAnchors.forEach(function (a) {
+                a.classList.toggle('active', a.getAttribute('href') === '#' + entry.target.id);
             });
         });
-
-        // Modern header scroll effects
-        const header = document.querySelector('.header');
-        const handleScroll = throttle(function() {
-            const scrollY = window.scrollY;
-            
-            if (scrollY > 100) {
-                header.style.background = 'rgba(255, 255, 255, 0.1)';
-                header.style.backdropFilter = 'blur(25px)';
-                header.style.borderBottom = '1px solid rgba(255, 255, 255, 0.2)';
-            } else {
-                header.style.background = 'rgba(255, 255, 255, 0.1)';
-                header.style.backdropFilter = 'blur(20px)';
-                header.style.borderBottom = '1px solid rgba(255, 255, 255, 0.2)';
-            }
-        }, 16);
-
-        window.addEventListener('scroll', handleScroll, { passive: true });
-
-        // Mobile menu toggle
-        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-        const navLinks = document.querySelector('.nav-links');
-        
-        if (mobileMenuToggle && navLinks) {
-            mobileMenuToggle.addEventListener('click', function() {
-                this.classList.toggle('active');
-                navLinks.classList.toggle('active');
-            });
-        }
-
-        // Enhanced intersection observer for animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver(function (entries) {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                    entry.target.style.transition = 'opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.6s cubic-bezier(0.4, 0, 0.2, 1)';
-                }
-            });
-        }, observerOptions);
-
-        // Observe elements for scroll animations
-        document.querySelectorAll('.skill-card, .timeline-item').forEach(card => {
-            card.style.opacity = '0';
-            card.style.transform = 'translateY(20px)';
-            observer.observe(card);
-        });
-
-        // Add parallax effect to floating elements
-        const floatingElements = document.querySelectorAll('.floating-element');
-        if (floatingElements.length > 0) {
-            const handleParallax = throttle(function() {
-                const scrollY = window.scrollY;
-                floatingElements.forEach((element, index) => {
-                    const speed = 0.5 + (index * 0.2);
-                    const yPos = -(scrollY * speed);
-                    element.style.transform = `translateY(${yPos}px)`;
-                });
-            }, 16);
-
-            window.addEventListener('scroll', handleParallax, { passive: true });
-        }
-
-        // Add focus trap for accessibility
-        const focusableElements = 'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])';
-        
-        // Performance optimization: preload critical resources
-        const preloadCriticalResources = () => {
-            const link = document.createElement('link');
-            link.rel = 'preload';
-            link.href = 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap';
-            link.as = 'style';
-            link.crossOrigin = 'anonymous';
-            document.head.appendChild(link);
-        };
-
-        // Initialize on DOM ready
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', preloadCriticalResources);
-        } else {
-            preloadCriticalResources();
-        }
-
-        // Lazy load images if any (future-proofing)
-        const lazyImages = document.querySelectorAll('img[data-src]');
-        if (lazyImages.length > 0) {
-            const imageObserver = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const img = entry.target;
-                        img.src = img.dataset.src;
-                        img.classList.remove('lazy');
-                        imageObserver.unobserve(img);
-                    }
-                });
-            });
-
-            lazyImages.forEach(img => imageObserver.observe(img));
-        }
-
-        // Add reduced motion support
-        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-        if (prefersReducedMotion.matches) {
-            document.documentElement.style.setProperty('--animation-duration', '0.01ms');
-        }
-
-    })();
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    document.querySelectorAll('main section[id]').forEach(function (s) { observer.observe(s); });
+})();
 </script>
 </body>
 </html>
